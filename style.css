@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 970px;
+    height: auto;
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500px;
+    margin: 0;
+    padding: 15px;
+}
+
+h1{
+    font-family: 'Nerko One', cursive;
+    font-weight: 500px;
+    display: inline-block;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}  
+.sub{
+    display: inline-block;
+    align-content: right;
+    margin-left: 400px;
+}
+.main-content{
+    width: 930px;
+    height: 890px;
+    background: -webkit-radial-gradient(#6f5964, #1f0f13); /* Safari 5.1- 6.0 */
+    background: -o-radial-gradient(#6f5964, #1f0f13); /* Opera 11.6-12.0 */
+    background: -moz-radial-gradient(#6f5964, #1f0f13); /* Firefox 3.6-15 */
+    background: radial-gradient(#6f5964, #1f0f13); /* Standard syntax */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: text-bottom;
+    flex-wrap: wrap;
+}
+.main-content img{
+    width: 410px;
+    height: auto;
+    border: 5px solid #7d7377;
+    margin-bottom:20px;
+}
+
+.introduce{
+    width: 480px;
+    height: auto;
+    background: -webkit-linear-gradient(to bottom right, #fefefe, #dbcbda); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(to bottom right, #fefefe, #dbcbda); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(to bottom right, #fefefe, #dbcbda); /* Firefox 3.6-15 */
+    background: linear-gradient(to bottom right, #fefefe, #dbcbda); /* Standard syntax */
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+.main-content h2{
+    font-size: 25px;
+    padding: 5px 10px;
+	background: -webkit-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Firefox 3.6-15 */
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Standard syntax */
+    color:white;
+    margin-top: 0;
+
+}
+.main-content p{
+    font-size: 15px;
+    padding: 10px;
+}
+.project{
+    width: 295px;
+    height: 570px;
+    padding-bottom: 20px;
+    background: -webkit-linear-gradient(to bottom right, #fefefe, #dbcbda); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(to bottom right, #fefefe, #dbcbda); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(to bottom right, #fefefe, #dbcbda); /* Firefox 3.6-15 */
+    background: linear-gradient(to bottom right, #fefefe, #dbcbda); /* Standard syntax */
+}
+.main-content a{
+    margin: 10px;
+}
+.main-content .project img{
+    width: 270px;
+    height: auto;
+    border: none;
+    margin:0;
+}
+
+.project .tech_images img{
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+.project .first{
+    margin-bottom: 70px;
+}
+.project .second{
+    margin-bottom: 35px;
+}
+.main-content .project .tech_images{
+    padding: 15px;
+    align-content: center;
+}
+.main-content .project .tech_images li{
+    display: inline-block;
+    margin-left: 7px;
+} 
+.project button{
+    color: white;
+    background-color: rgb(38, 148, 80);
+    border: 2px solid black;
+    display: block;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center bottom;
+}
+.footer{
+    width: 970px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    margin-top: 0;
+    padding: 10px;
+}
+.footer ul li{
+    display: inline;
+    justify-content: center;
+}
+.social_media img{
+    width: 20px;
+    height: 20px;
+    border: none;
+    vertical-align: middle;
+}
+.footer ul{
+    margin-top: 15px;
+}
+.social_media a{
+    margin-bottom: 30px;
+    vertical-align: middle;
+}
